@@ -5,11 +5,11 @@
 # Source0 file verified with key 0xE6DFB08CE8B11277 (fcosta@trustwave.com)
 #
 Name     : modsecurity-nginx
-Version  : 1.0.1
-Release  : 20
-URL      : https://github.com/SpiderLabs/ModSecurity-nginx/releases/download/v1.0.1/modsecurity-nginx-v1.0.1.tar.gz
-Source0  : https://github.com/SpiderLabs/ModSecurity-nginx/releases/download/v1.0.1/modsecurity-nginx-v1.0.1.tar.gz
-Source1  : https://github.com/SpiderLabs/ModSecurity-nginx/releases/download/v1.0.1/modsecurity-nginx-v1.0.1.tar.gz.asc
+Version  : 1.0.2
+Release  : 21
+URL      : https://github.com/SpiderLabs/ModSecurity-nginx/releases/download/v1.0.2/modsecurity-nginx-v1.0.2.tar.gz
+Source0  : https://github.com/SpiderLabs/ModSecurity-nginx/releases/download/v1.0.2/modsecurity-nginx-v1.0.2.tar.gz
+Source1  : https://github.com/SpiderLabs/ModSecurity-nginx/releases/download/v1.0.2/modsecurity-nginx-v1.0.2.tar.gz.asc
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
@@ -30,8 +30,8 @@ lib components for the modsecurity-nginx package.
 
 
 %prep
-%setup -q -n modsecurity-nginx-v1.0.1
-cd %{_builddir}/modsecurity-nginx-v1.0.1
+%setup -q -n modsecurity-nginx-v1.0.2
+cd %{_builddir}/modsecurity-nginx-v1.0.2
 
 %build
 export http_proxy=http://127.0.0.1:9/
