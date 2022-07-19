@@ -6,7 +6,7 @@
 #
 Name     : modsecurity-nginx
 Version  : 1.0.3
-Release  : 25
+Release  : 26
 URL      : https://github.com/SpiderLabs/ModSecurity-nginx/releases/download/v1.0.3/modsecurity-nginx-v1.0.3.tar.gz
 Source0  : https://github.com/SpiderLabs/ModSecurity-nginx/releases/download/v1.0.3/modsecurity-nginx-v1.0.3.tar.gz
 Source1  : https://github.com/SpiderLabs/ModSecurity-nginx/releases/download/v1.0.3/modsecurity-nginx-v1.0.3.tar.gz.asc
